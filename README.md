@@ -1,5 +1,5 @@
 # ctf-writeups
 
-My write ups from past security-related Capture the Flag events.
+My write ups from past Capture the Flag events.
 
 Author: nyquiloverdose
