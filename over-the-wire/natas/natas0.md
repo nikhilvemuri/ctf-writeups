@@ -1,4 +1,4 @@
-##Natas 0##
+## Natas 0 ##
 
 Natas is a wargame based on **web server security** challenges.
 Visit [overthewire.org/wargames/natas] to get started.
