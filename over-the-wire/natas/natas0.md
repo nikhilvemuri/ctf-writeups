@@ -1,7 +1,7 @@
 ## Natas 0 ##
 
 Natas is a wargame based on **web server security** challenges.
-Visit [overthewire.org/wargames/natas] to get started.
+Visit [overthewire.org/wargames/natas](overthewire.org/wargames/natas) to get started.
 
 These are my write-ups for each challenge. I will not be sharing the passwords for any level after this one, rather just the steps I took to get each one. 
 
