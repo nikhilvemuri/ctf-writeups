@@ -1,10 +1,11 @@
 # Natas
 
+Natas is a wargame based on web server security challenges.
+http://overthewire.org/wargames/natas
+
 
 ## Natas 0
 
-Natas is a wargame based on web server security challenges.
-(http://overthewire.org/wargames/natas)
 
 Once inside level 0 (use the password given on the starter page), we can inspect the source code of the landing page to find the password for level 1 commented inside the `body` of the HTML source. On to level 1.
 
