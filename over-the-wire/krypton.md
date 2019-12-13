@@ -49,8 +49,8 @@ Using `encrypt` on a plaintext file containing `abcd` outputs ciphertext
 `MNOP`. So we can just take a shortcut and use `tr` again:
 
 `cat krypton3 | tr "[M-ZA-L]" "[A-Z]"` to shift the ciphertext alphabets 12 places
-backward to get the original text. (Alternatively, cat krypton3 | tr
-"[A-Z]" "[O-ZA-N]" produces the same output, but by shifting the ciphertext
+backward to get the original text. (Alternatively, `cat krypton3 | tr
+"[A-Z]" "[O-ZA-N]"` produces the same output, but by shifting the ciphertext
 alphabets 14 places forward.)
 
 password3: `CAESARISEASY`
