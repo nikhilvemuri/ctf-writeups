@@ -36,4 +36,21 @@ password2: `ROTTEN`
 
 ## Krypton 2
 
+The README tells us that krypton3 contains the password, encrypted using
+keyfile.dat. But we don't have access to keyfile.dat - instead we're given
+a binary which can use it to encrypt any plaintext file we provide. (Note:
+the binary makes an output file, so to work in a place with write
+permissions, we have to make a directory in /tmp/ and work there)
 
+We know that this is a Caesar cipher, in other words a generalized version
+of ROT13: instead of 13, the shift can be anything between 0-25.
+
+Using `encrypt` on a plaintext file containing `abcd` outputs ciphertext
+`MNOP`. So we can just take a shortcut and use `tr` again:
+
+`cat krypton3 | tr "[M-ZA-L]" "[A-Z]"` to shift the ciphertext alphabets 12 places
+backward to get the original text. (Alternatively, cat krypton3 | tr
+"[A-Z]" "[O-ZA-N]" produces the same output, but by shifting the ciphertext
+alphabets 14 places forward.)
+
+password3: `CAESARISEASY`
