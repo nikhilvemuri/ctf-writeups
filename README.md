@@ -1,5 +1,7 @@
 # ctf-writeups
 
-My write ups from past Capture the Flag events.
+My write ups from security Capture the Flag events.
 
 Author: nyquiloverdose
+
+My team: https://ctftime.org/team/87395
