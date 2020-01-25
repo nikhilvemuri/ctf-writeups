@@ -8,7 +8,7 @@ So, we know that Delphine is a cook. A wonderful one, at that. But did you know 
 
 Title was pretty straightforward: putting /robots.txt after the RTCP
 homepage URL gives us a robots page which points to 2 hidden directories:
-/robot-nurses and /flag. 
+`/robot-nurses` and `/flag`. 
 
 I had a hunch that /flag was going to be a meme, so I went to /robot-nurses
 first and did end up finding the flag there. /flag had an embedded YouTube
